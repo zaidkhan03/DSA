@@ -9,7 +9,7 @@ require("./LinkedList/linkedList");
 // require("./Problems/validParentheses");
 // require("./Problems/sellStocks");
 // require("./Problems/validPalindrome");
-require("./Problems/validAnagram");
+// require("./Problems/validAnagram");
 
 //Medium
 // require("./Problems/lengthOfLongestSubstring");

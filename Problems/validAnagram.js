@@ -1,5 +1,5 @@
-const s = "anagramss"; //true
-const t = "nagaramww";
+const s = "anagram"; //true
+const t = "nagaram";
 
 // const s = "rat"; //false
 // const t = "car";
@@ -18,29 +18,34 @@ const t = "nagaramww";
 //   return s === t;
 // };
 
+//OPTIMAL
 var isAnagram = function (s, t) {
-  map = {};
+  let map = new Map();
   if (s.length !== t.length) {
     return false;
   }
   for (let i = 0; i < s.length; i++) {
-    if (map[s[i]]) {
-      map[s[i]] += 1;
+    const char = s[i];
+    if (map.get(char)) {
+      map.set(char, map.get(char) + 1);
     } else {
-      map[s[i]] = 1;
-    }
-
-    if (map[t[i]]) {
-      map[t[i]] -= 1;
-    } else {
-      map[t[i]] = 1;
+      map.set(char, 1);
     }
   }
-  //   for (let j = 0; j < t.length; j++) {
 
-  //   }
-  console.log(map);
-  return map;
+  for (let j = 0; j < s.length; j++) {
+    const char = t[j];
+    if (map.get(char)) {
+      map.set(char, map.get(char) - 1);
+      if (map.get(char) === 0) {
+        map.delete(char);
+      }
+    } else {
+      return false;
+    }
+  }
+
+  return map.size === 0;
 };
 
 console.log(isAnagram(s, t));
