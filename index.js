@@ -10,8 +10,9 @@ require("./LinkedList/linkedList");
 // require("./Problems/sellStocks");
 // require("./Problems/validPalindrome");
 // require("./Problems/validAnagram");
+require("./Problems/mergeTwoSortedLists");
 
 //Medium
 // require("./Problems/lengthOfLongestSubstring");
 // require("./Problems/addingTwoLinkedList");
-require("./Problems/maxSubArray");
+// require("./Problems/maxSubArray");

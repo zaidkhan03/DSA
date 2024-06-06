@@ -158,3 +158,4 @@ list.insert(99, 1);
 // console.log(list);
 
 module.exports = LinkedList;
+// module.exports = Node;

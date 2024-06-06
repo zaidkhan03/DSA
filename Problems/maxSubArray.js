@@ -1,19 +1,31 @@
 const nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+// const nums = [1]
+// const nums = [-5, -4, -1, -7, -8];
 
+///Optimal Sol
+// const maxSubArray = function (nums) {
+//   let curr = 0,
+//     res = -Infinity;
+//   for (let i = 0; i < nums.length; i++) {
+//     curr += nums[i];
+//     curr > res ? (res = curr) : null;
+//     curr < 0 ? (curr = 0) : null;
+//   }
+//   return res;
+// };
+
+// console.log(maxSubArray(nums));
+
+///Divide And Conquer
 const maxSubArray = function (nums) {
-  let map = {},
-    res = 0;
+  let curr = 0,
+    res = -Infinity;
   for (let i = 0; i < nums.length; i++) {
-    if (res < 0) {
-      console.log(nums[i]);
-      res = 0;
-    }
-    if (res < res + nums[i] && nums[i + 1] < 0) {
-      res = 0;
-    }
-    res += nums[i];
+    curr += nums[i];
+    curr > res ? (res = curr) : null;
+    curr < 0 ? (curr = 0) : null;
   }
-  return `result is ${res}`;
+  return res;
 };
 
 console.log(maxSubArray(nums));
