@@ -1,4 +1,4 @@
-const LinkedList = require("../LinkedList/linkedList");
+const LinkedList = require("../../LinkedList/linkedList");
 
 //input
 //l1 = [2,4,3], l2 = [5,6,4]

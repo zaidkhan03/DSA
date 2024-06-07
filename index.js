@@ -1,18 +1,20 @@
 //Concepts
-require("./LinkedList/linkedList");
+// require("./LinkedList/linkedList");
+require("./BinarySearchTree/BinarySearchTree");
 
 ///////////////////////
 
 /////Problems
 
 //Easy
-// require("./Problems/validParentheses");
-// require("./Problems/sellStocks");
-// require("./Problems/validPalindrome");
-// require("./Problems/validAnagram");
-require("./Problems/mergeTwoSortedLists");
+// require("./Problems/easy/validParentheses");
+// require("./Problems/easy/sellStocks");
+// require("./Problems/easy/validPalindrome");
+// require("./Problems/easy/validAnagram");
+// require("./Problems/easy/mergeTwoSortedLists");
+require("./Problems/easy/invertBinaryTree");
 
 //Medium
-// require("./Problems/lengthOfLongestSubstring");
-// require("./Problems/addingTwoLinkedList");
-// require("./Problems/maxSubArray");
+// require("./Problems/medium/lengthOfLongestSubstring");
+// require("./Problems/medium/addingTwoLinkedList");
+// require("./Problems/medium/maxSubArray");

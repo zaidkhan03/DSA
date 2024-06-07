@@ -104,6 +104,7 @@ class LinkedList {
     }
     return null;
   }
+
   search(value) {
     if (this.isEmpty()) {
       return null;
@@ -158,4 +159,3 @@ list.insert(99, 1);
 // console.log(list);
 
 module.exports = LinkedList;
-// module.exports = Node;
