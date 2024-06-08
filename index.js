@@ -12,9 +12,9 @@ require("./BinarySearchTree/BinarySearchTree");
 // require("./Problems/easy/validPalindrome");
 // require("./Problems/easy/validAnagram");
 // require("./Problems/easy/mergeTwoSortedLists");
-require("./Problems/easy/invertBinaryTree");
+// require("./Problems/easy/invertBinaryTree");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
 // require("./Problems/medium/addingTwoLinkedList");
-// require("./Problems/medium/maxSubArray");
+require("./Problems/medium/maxSubArray");
