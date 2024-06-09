@@ -83,11 +83,11 @@ class BinarySearchTree {
     while (queue.length) {
       let curr = queue.shift();
       console.log(curr.value);
-      if (curr.left) {
-        queue.push(curr.left);
-      }
       if (curr.right) {
         queue.push(curr.right);
+      }
+      if (curr.left) {
+        queue.push(curr.left);
       }
     }
   }
@@ -95,6 +95,7 @@ class BinarySearchTree {
 
 const tree = new BinarySearchTree();
 // console.log(tree.isEmpty());
+
 tree.insert(10);
 tree.insert(5);
 tree.insert(15);

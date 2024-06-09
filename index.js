@@ -1,6 +1,6 @@
 //Concepts
 // require("./LinkedList/linkedList");
-require("./BinarySearchTree/BinarySearchTree");
+// require("./BinarySearchTree/BinarySearchTree");
 
 ///////////////////////
 
@@ -17,4 +17,16 @@ require("./BinarySearchTree/BinarySearchTree");
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
 // require("./Problems/medium/addingTwoLinkedList");
-require("./Problems/medium/maxSubArray");
+// require("./Problems/medium/maxSubArray");
+
+const obj = {
+  name: "zaid",
+  age: 16,
+  obj1: { name: "obj1" },
+  obj2: { name: "obj2" },
+};
+temp = obj.obj1;
+obj.obj1 = obj.obj2;
+obj.obj2 = temp;
+
+console.log(obj);

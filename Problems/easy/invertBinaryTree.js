@@ -9,7 +9,18 @@ tree.insert(3);
 tree.insert(6);
 tree.insert(9);
 
+// Breadth First Search approach
 var invertTree = function (root) {
+  if (root === null) return root;
+  const queue = [];
+  queue.push(root);
+  while (queue.length) {
+    let curr = queue.shift();
+    if (curr) {
+      [curr.left, curr.right] = [curr.right, curr.left];
+      queue.push(curr.right, curr.left);
+    }
+  }
   return root;
 };
 
