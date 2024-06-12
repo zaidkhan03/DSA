@@ -1,7 +1,7 @@
 //Concepts
 // require("./LinkedList/LinkedList");
 // require("./BinarySearchTree/BinarySearchTree");
-require("./Graphs/Graph");
+// require("./Graphs/Graph");
 
 ///////////////////////
 
@@ -14,7 +14,7 @@ require("./Graphs/Graph");
 // require("./Problems/easy/validAnagram");
 // require("./Problems/easy/mergeTwoSortedLists");
 // require("./Problems/easy/invertBinaryTree");
-// require("./Problems/easy/binarySearch");
+require("./Problems/easy/binarySearch");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
