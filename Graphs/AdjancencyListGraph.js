@@ -1,9 +1,3 @@
-// const matrix = [
-//   [0, 1, 0],
-//   [1, 0, 1],
-//   [0, 1, 0],
-// ];
-
 // const adjancencyList = {
 //   A: ["B"],
 //   B: ["AC"],
@@ -59,7 +53,6 @@ class Graph {
     }
   }
 }
-
 const graph = new Graph();
 graph.addVertex("A");
 graph.addVertex("B");
