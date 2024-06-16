@@ -102,14 +102,14 @@ tree.insert(15);
 tree.insert(3);
 tree.insert(7);
 
-console.log(tree.root);
+// console.log(tree.root);
 // console.log(tree.search(tree.root, 5));
 // tree.preOrder(tree.root);
 // console.log();
 // tree.inOrder(tree.root);
 // console.log();
 // tree.postOrder(tree.root);
-console.log();
-tree.levelOrder(tree.root);
+// console.log();
+// tree.levelOrder(tree.root);
 
 module.exports = BinarySearchTree;
