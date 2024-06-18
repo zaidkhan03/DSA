@@ -16,10 +16,11 @@
 // require("./Problems/easy/invertBinaryTree");
 // require("./Problems/easy/binarySearch");
 // require("./Problems/easy/floodFill");
-require("./Problems/easy/ransomNote");
+// require("./Problems/easy/ransomNote");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
 // require("./Problems/medium/addingTwoLinkedList");
 // require("./Problems/medium/maxSubArray");
 // require("./Problems/medium/ancestorOfBinaryTree");
+require("./Problems/medium/insertInterval");
