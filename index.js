@@ -18,6 +18,7 @@
 // require("./Problems/easy/floodFill");
 // require("./Problems/easy/ransomNote");
 // require("./Problems/easy/balancedBST");
+// require("./Problems/easy/containsDuplicate");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
