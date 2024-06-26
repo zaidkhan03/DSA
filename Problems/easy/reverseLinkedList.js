@@ -7,6 +7,7 @@ head.prepend(3);
 head.prepend(4);
 head.prepend(5);
 
+//Reversing
 var reverseList = function (head) {
   if (!head) return head;
   let prev = null,

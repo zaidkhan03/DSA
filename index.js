@@ -21,6 +21,7 @@
 // require("./Problems/easy/containsDuplicate");
 // require("./Problems/easy/climbingStairs");
 // require("./Problems/easy/reverseLinkedList");
+// require("./Problems/easy/majorityElement");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
