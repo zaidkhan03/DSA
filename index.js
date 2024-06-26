@@ -19,6 +19,8 @@
 // require("./Problems/easy/ransomNote");
 // require("./Problems/easy/balancedBST");
 // require("./Problems/easy/containsDuplicate");
+// require("./Problems/easy/climbingStairs");
+// require("./Problems/easy/reverseLinkedList");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
