@@ -2,6 +2,7 @@
 // require("./LinkedList/LinkedList");
 // require("./BinarySearchTree/BinarySearchTree");
 // require("./Graphs/AdjancencyListGraph");
+// require("./Queue/Queue");
 
 ///////////////////////
 
