@@ -8,14 +8,14 @@ head.prepend(4);
 head.prepend(5);
 
 var hasCycle = function (head) {
-  const visitedNodes = new Set();
-  let currentNode = head;
-  while (currentNode) {
-    if (visitedNodes.has(currentNode)) {
+  const arr = new Set();
+  let curr = head;
+  while (curr) {
+    if (arr.has(curr)) {
       return true;
     } else {
-      visitedNodes.add(currentNode);
-      currentNode = currentNode.next;
+      arr.add(curr);
+      curr = curr.next;
     }
   }
   return false;

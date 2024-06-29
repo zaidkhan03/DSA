@@ -23,6 +23,7 @@
 // require("./Problems/easy/reverseLinkedList");
 // require("./Problems/easy/majorityElement");
 // require("./Problems/easy/hasCycle");
+// require("./Problems/easy/addBinaryDigits");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
