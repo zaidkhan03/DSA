@@ -1,14 +1,6 @@
 const BinarySearchTree = require("../../BinarySearchTree/BinarySearchTree");
 const tree = new BinarySearchTree();
 
-//       10
-//   5         15   ///Input
-// 3     7
-
-//       10
-//   15         5   ///output
-//           7     3
-
 tree.insert(10);
 tree.insert(5);
 tree.insert(15);

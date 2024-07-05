@@ -27,6 +27,7 @@
 // require("./Problems/easy/addBinaryDigits");
 // require("./Problems/easy/removeDuplicates");
 // require("./Problems/easy/middleOfLinkedList");
+// require("./Problems/easy/maxDepthBST");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");

@@ -13,7 +13,6 @@ var removeDuplicates = function (nums) {
       index += 1;
     }
   }
-
   console.log(nums);
   return index;
 };
