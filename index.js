@@ -28,6 +28,12 @@
 // require("./Problems/easy/removeDuplicates");
 // require("./Problems/easy/middleOfLinkedList");
 // require("./Problems/easy/maxDepthBST");
+// require("./Problems/easy/longestCommonPrefix");
+// require("./Problems/easy/backspaceCompare");
+// require("./Problems/easy/romanToInt");
+// require("./Problems/easy/countBits");
+// require("./Problems/easy/diameterOfBinaryTree");
+// require("./Problems/easy/isSameBST");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
