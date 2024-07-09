@@ -34,6 +34,7 @@
 // require("./Problems/easy/countBits");
 // require("./Problems/easy/diameterOfBinaryTree");
 // require("./Problems/easy/isSameBST");
+require("./Problems/easy/singleNumber");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
