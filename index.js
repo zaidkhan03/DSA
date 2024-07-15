@@ -38,6 +38,7 @@
 // require("./Problems/easy/LinkedListPalindrome");
 // require("./Problems/easy/moveZeroes");
 // require("./Problems/easy/symmetricBST");
+// require("./Problems/easy/isPalindrome");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
