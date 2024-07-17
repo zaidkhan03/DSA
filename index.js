@@ -39,6 +39,7 @@
 // require("./Problems/easy/moveZeroes");
 // require("./Problems/easy/symmetricBST");
 // require("./Problems/easy/isPalindrome");
+// require("./Problems/easy/sortedArrayToBST");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
