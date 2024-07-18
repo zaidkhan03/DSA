@@ -40,6 +40,7 @@
 // require("./Problems/easy/symmetricBST");
 // require("./Problems/easy/isPalindrome");
 // require("./Problems/easy/sortedArrayToBST");
+// require("./Problems/easy/sortedSquares");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
