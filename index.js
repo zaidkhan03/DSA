@@ -41,6 +41,7 @@
 // require("./Problems/easy/isPalindrome");
 // require("./Problems/easy/sortedArrayToBST");
 // require("./Problems/easy/sortedSquares");
+// require("./Problems/easy/inorderTraversal");
 
 //Medium
 // require("./Problems/medium/lengthOfLongestSubstring");
